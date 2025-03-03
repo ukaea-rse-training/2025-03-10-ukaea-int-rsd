@@ -9,12 +9,12 @@ country: "GB"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: 51.65713      # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: -1.23002     # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "3, 4, 12, 13, 20, 21 June 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "13:00 - 16:30 BST (UTC+1)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2024-06-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2024-06-21
-instructor: ["Matthew Bluteau", "Jez Swann", "Kristian Zarebski", "Harry Saunders", "Kingsley Collie"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Charlie Boswell", "Sanket Gadgil"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+humandate: "10, 11, 18, 19, 24, 25 March 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "13:00 - 16:30 GMT (UTC+0)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+startdate: 2025-03-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2025-03-25
+instructor: ["Matthew Bluteau", "Kirill Palamartchouk", "Kristian Zarebski", "Matthew Field", "Harry Saunders", "Kingsley Collie"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Jez Swann", "Sanket Gadgil", "Thomas Clayton"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["matthew.bluteau@ukaea.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: "COMING SOON" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -310,7 +310,7 @@ please preview your site before committing, and make sure to run
 {% include lc/setup.html %}
 {% elsif site.carpentry == "incubator" %}
 All non-Windows users, please check the note below about IDEs,
-then head to the "Setup" page of [the lesson site]({{ site.incubator_lesson_site }}setup)
+then head to the "Setup" page of [the lesson site]({{ site.incubator_lesson_site }}installation-instructions)
 for instructions to follow to obtain the software and data you will need to follow the lesson.
 For Windows users, please see the note immediately below.
 We recommend that you use your work laptop for the course and run the software required directly on that.
@@ -392,7 +392,7 @@ limited.[^1]
 > 2. Microsoft's VSCode: a widely used IDE and likely the most popular at UKAEA.
 >    Instructions for getting set up with it have recently been added to the
 >    ["Extras" of the
->    course](https://ukaea-rse-training.github.io/python-intermediate-development/vscode/index.html).
+>    course](https://carpentries-incubator.github.io/python-intermediate-development/vscode/index.html).
 >    As you go through the course and features of PyCharm are being explained,
 >    you can use that document to get the analogous features in VSCode. This
 >    will of course require switching between between webpages, so the

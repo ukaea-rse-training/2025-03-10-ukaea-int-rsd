@@ -52,20 +52,20 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Intermediate Research Software Development at UKAEA"
+title: "Intermediate Research Software Development in Python"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-incubator_lesson_site: "https://ukaea-rse-training.github.io/python-intermediate-development/"
+incubator_lesson_site: "https://carpentries-incubator.github.io/python-intermediate-development/"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
 incubator_pre_survey: ""
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
-incubator_post_survey: "TODO"
+incubator_post_survey: ""
 #
 #------------------------------------------------------------
 
